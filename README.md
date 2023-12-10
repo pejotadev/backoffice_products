@@ -19,7 +19,7 @@ Este projeto é um exemplo simples de um aplicativo web que demonstra a integra�
 
 ## Instalação e Execução
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+1. Clone o repositório: `git clone https://github.com/pejotadev/backoffice_products`
 2. Instale as dependências do Laravel: `composer install`
 3. Copie o arquivo de ambiente: `cp .env.example .env`
 4. Configure o arquivo `.env` com as informações do seu banco de dados.
@@ -35,13 +35,14 @@ Acesse a aplicação em `http://localhost:8000` e comece a explorar o CRUD de pr
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests para melhorar este projeto.
 
-## Licença
-
-Este projeto sera distribuído sob a licença [MIT](link-para-licenca).
-
-
-## Futuras features
+## Futuras features API
 
 1. Autenticaçāo de usuario
-2. Transformar estrutura MVC do BE para feature by package
+2. Transformar estrutura MVC para feature by package
 3. Criar DTOs para validaçāo e tranformacao dos dados
+4. Configurar charset do projeto
+5. Criar ErrorHandler para tratar menssagens de erro e retornar Erros em JSON
+6. Criar campo categoria_id dentro de categoria para podermos criarmos N subcategorias
+7.
+
+## Futuras features API
