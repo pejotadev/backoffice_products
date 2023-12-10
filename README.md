@@ -20,14 +20,14 @@ Este projeto é um exemplo simples de um aplicativo web que demonstra a integra�
 ## Instalação e Execução
 
 1. Clone o repositório: `git clone https://github.com/pejotadev/backoffice_products`
-2. Instale as dependências do Laravel: `composer install`
+2. Va para a pasta api e Instale as dependências do Laravel: `composer install`
 3. Copie o arquivo de ambiente: `cp .env.example .env`
-4. Configure o arquivo `.env` com as informações do seu banco de dados.
+4. Configure o arquivo `.env` com as informações do seu banco de dados. e crie o banco dropunico
 5. Gere a chave de aplicativo do Laravel: `php artisan key:generate`
 6. Execute as migrações do banco de dados: `php artisan migrate`
-7. Instale as dependências do Vue.js: `npm install` ou `yarn install`
-8. Compile os ativos do Vue.js: `npm run dev` ou `yarn dev`
-9. Inicie o servidor: `php artisan serve`
+7. Inicie o servidor: `php artisan serve`
+8. Va para a pasta vue create vue-api-frontend e Instale as dependências do Vue.js: `npm install` ou `yarn install`
+9. Compile os ativos do Vue.js: `npm run dev` ou `yarn dev`
 
 Acesse a aplicação em `http://localhost:8000` e comece a explorar o CRUD de produtos!
 
