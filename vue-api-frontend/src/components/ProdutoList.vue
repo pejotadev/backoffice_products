@@ -23,7 +23,7 @@ export default {
 
     const fetchProdutos = async () => {
       const response = await axios.get("http://localhost:8000/api/produtos");
-      produtos = response.data;
+      produtos.value = response.data;
     };
 
     return {

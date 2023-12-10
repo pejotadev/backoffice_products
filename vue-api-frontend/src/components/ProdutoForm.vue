@@ -32,7 +32,7 @@ export default {
     });
 
     const criarProduto = async () => {
-      const response = await axios.post("http://localhost:8000/api/produtos", novoProduto);
+      const response = await axios.post("http://localhost:8000/api/produtos", novoProduto.value);
       
       alert(`Produto '${response.data.nome}' criado com sucesso!`);
 
@@ -40,11 +40,11 @@ export default {
     };
 
     const reset = () => {
-      novoProduto.nome = "";
-      novoProduto.descricao = "";
-      novoProduto.preco = 0;
-      novoProduto.quantidade = 0;
-      novoProduto.categoria_id = 0;
+      novoProduto.value.nome = "";
+      novoProduto.value.descricao = "";
+      novoProduto.value.preco = 0;
+      novoProduto.value.quantidade = 0;
+      novoProduto.value.categoria_id = 0;
     };
 
     return {

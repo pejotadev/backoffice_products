@@ -20,7 +20,8 @@ export default {
     });
 
     const criarCategoria = async () => {
-      const response = await axios.post("http://localhost:8000/api/categorias", novaCategoria);
+      console.log(novaCategoria.value)
+      const response = await axios.post("http://localhost:8000/api/categorias", novaCategoria.value);
       
       alert(`Categoria '${response.data.nome}' criada com sucesso!`);
 
@@ -28,7 +29,7 @@ export default {
     };
 
     const reset = () => {
-      novaCategoria.nome = "";
+      novaCategoria.value.nome = "";
     };
 
     return {
