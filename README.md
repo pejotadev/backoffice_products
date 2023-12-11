@@ -26,10 +26,16 @@ Este projeto é um exemplo simples de um aplicativo web que demonstra a integra�
 5. Gere a chave de aplicativo do Laravel: `php artisan key:generate`
 6. Execute as migrações do banco de dados: `php artisan migrate`
 7. Inicie o servidor: `php artisan serve`
-8. Va para a pasta vue create vue-api-frontend e Instale as dependências do Vue.js: `npm install` 
+8. Va para a pasta vue create vue-api-frontend e Instale as dependências do Vue.js: `npm install`
 9. Compile os ativos do Vue.js: `npm run serve`
 
 Acesse a aplicação em `http://localhost:8000` e comece a explorar o CRUD de produtos!
+
+## Imagens
+
+![Texto alternativo](./imgs/edita_produtos.png)
+
+![Texto alternativo](./imgs/lista_produtos.png)
 
 ## Contribuição
 
@@ -45,4 +51,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 6. Criar campo categoria_id dentro de categoria para podermos criarmos N subcategorias
 7.
 
-## Futuras features API
+## Futuras features Front
+
+1. lidar com erros
+2. criar estrutura melhor para buscar dados em vez de utilizar diretamente axios
+3. criar telas para gestao de usuario
+4. Criar views
+5. criar event bus para editar e visualizar produtos na mesma view
+6. deletar produtos
