@@ -26,8 +26,8 @@ Este projeto é um exemplo simples de um aplicativo web que demonstra a integra�
 5. Gere a chave de aplicativo do Laravel: `php artisan key:generate`
 6. Execute as migrações do banco de dados: `php artisan migrate`
 7. Inicie o servidor: `php artisan serve`
-8. Va para a pasta vue create vue-api-frontend e Instale as dependências do Vue.js: `npm install` ou `yarn install`
-9. Compile os ativos do Vue.js: `npm run dev` ou `yarn dev`
+8. Va para a pasta vue create vue-api-frontend e Instale as dependências do Vue.js: `npm install` 
+9. Compile os ativos do Vue.js: `npm run serve`
 
 Acesse a aplicação em `http://localhost:8000` e comece a explorar o CRUD de produtos!
 
